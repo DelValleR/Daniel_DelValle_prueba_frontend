@@ -1,0 +1,59 @@
+/* Cards.css */
+
+.cards-container {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin: 20px 0;
+}
+
+.cards-wrapper {
+	display: flex;
+	transition: transform 0.5s ease;
+}
+
+.card {
+	flex: 0 0 auto;
+	width: 100%; /* Ahora ocupa el 100% del contenedor */
+	max-width: 300px;
+	margin-right: 20px;
+	padding: 10px;
+	background-color: #f9f9f9;
+	border-radius: 5px;
+}
+
+.card img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.card h2 {
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.card p {
+	font-size: 14px;
+	color: #555;
+}
+
+.prev-button,
+.next-button {
+	position: absolute;
+	top: 50%;
+	background-color: transparent;
+	border: none;
+	color: #ffffff;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.prev-button {
+	left: 10px;
+}
+
+.next-button {
+	right: 10px;
+}

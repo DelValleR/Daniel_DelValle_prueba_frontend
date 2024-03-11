@@ -1,0 +1,28 @@
+/* Banner.css */
+
+/* Estilos del contenedor del banner */
+.banner {
+	background-color: #3c5973;
+	color: #ffffff;
+	padding: 20px;
+	text-align: center;
+	width: 20%;
+	display: flex;
+	justify-content: center;
+}
+
+/* Estilos de la animación */
+.animation {
+	width: 200px; /* Ajustar según el tamaño deseado */
+	height: 100px; /* Ajustar según el tamaño deseado */
+	animation: bounce 2s infinite alternate; /* Animación definida */
+}
+
+@keyframes bounce {
+	from {
+		transform: translateY(50px);
+	}
+	to {
+		transform: translateY(-40px); /* Ajustar según el efecto deseado */
+	}
+}

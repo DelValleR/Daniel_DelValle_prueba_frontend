@@ -1,0 +1,92 @@
+/* Header.css */
+
+/* Estilos generales del header */
+.header {
+	background-color: #0c1726;
+	color: #ffffff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	flex-wrap: wrap;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	/* justify-content: space-between; */
+}
+
+/* Estilos de los botones del menú principal */
+.menu-button {
+	background-color: transparent;
+	border: none;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.menu-button:hover {
+	text-decoration: underline;
+}
+
+/* Estilos del botón "Pages" */
+.pages-button {
+	position: relative;
+}
+
+.pages-dropdown {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	display: none;
+	background-color: #3c5973;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.pages-button:hover .pages-dropdown {
+	display: block;
+}
+
+/* Estilos de los ítems del menú desplegable */
+.dropdown-item {
+	background-color: transparent;
+	border: none;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 5px;
+}
+
+.dropdown-item:hover {
+	text-decoration: underline;
+}
+
+.header-container {
+	text-align: left;
+	margin-top: 20%;
+}
+
+/* Estilos del botón del banner */
+.banner-button {
+	background-color: #3c5973;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 20%;
+}
+
+.banner-button:hover {
+	background-color: #ffffff;
+	color: #0c1726;
+}

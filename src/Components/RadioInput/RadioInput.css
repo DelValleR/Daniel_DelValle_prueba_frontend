@@ -1,0 +1,22 @@
+/* RadioInput.css */
+.radio-input {
+	margin-bottom: 10px;
+	background-color: #0c1726;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	padding: 10%;
+	border-radius: 12px;
+}
+
+.radio-input input[type='radio'] {
+	margin-right: 5px;
+	width: 10%;
+}
+
+.radio-item {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 20%;
+	padding: 5%;
+}
